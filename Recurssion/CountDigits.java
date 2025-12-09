@@ -5,11 +5,11 @@ public class CountDigits {
         System.out.println("count is : "+ans);
     }
     public static  int countnum(int n){
-        int count = 1;
+       
         if(n==0){
             return 0;
         }
-        return count+countnum(n/10);
+        return 1+countnum(n/10);
 
 
     }
